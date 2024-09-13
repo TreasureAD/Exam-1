@@ -60,11 +60,12 @@ public class Exam {
         }
 
         double finalAmount = sum - sum * discountAmount;
-
         return finalAmount;
     }
 
     public static void rollDice(){
+
+        //Challenge: Generate two random numbers and store as an array, print output ex:1,2
 
         int rollOne = (int)(Math.random() * 5) + 1 ;
         int rollTwo = (int)(Math.random() * 5) + 1 ;
